@@ -14,7 +14,7 @@ EMBEDDING_MODEL = "text-embedding-ada-002"
 GPT_MODEL = "gpt-3.5-turbo"
 
 # OpenAI initialization
-openai = OpenAI(api_key="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")
+openai = OpenAI(api_key="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")
 
 # Initialize session state for storing conversation history
 if 'messages' not in st.session_state:
